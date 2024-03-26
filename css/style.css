@@ -56,7 +56,7 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 .container {
     width: 990px;
     margin: 0 auto;
-    height: 100vh;
+    height: calc(100vh - 70px);
 }
 
 .d-flex {
@@ -80,6 +80,7 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 .jc-center {justify-content: center;}
 .jc-between {justify-content: space-between;}
+.jc-end {justify-content: end;}
 .ai-center {align-items: center;}
 
 .my-10 {margin: 10px 0;}
@@ -88,8 +89,9 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 .my-50 {margin: 50px 0;}
 .mt-50 {margin-top: 50px;}
 .mt-120 {margin-top: 120px;}
-
 .mb-50 {margin-bottom: 50px;}
+.ml-10 {margin-left: 10px;}
+.mr-25 {margin-right: 25px;}
 
 .mx-10 {margin: 0 10px;}
 .mx-25 {margin: 0 25px;}
@@ -105,6 +107,7 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 .px-35 {padding: 0 35px;}
 
 .ht-50 {height: 50px;}
+.ht-70 {height: 70px;}
 
 .ta-center {text-align: center;}
 .ta-right {text-align: right;}
