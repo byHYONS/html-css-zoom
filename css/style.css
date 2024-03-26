@@ -26,8 +26,26 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
-    vertical-align: baseline;
 }
+.content{
+    position: relative;
+}
+
+.content img {
+    width: 100%;
+}
+
+.libel-img {
+    position: absolute;
+    left: 3px;
+    bottom: 5px;
+    font-size: 10px;
+    background-color: #4a4a4aa0;
+    color: white;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+
 
 
 /* -------------------------
@@ -45,6 +63,10 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
     display: flex;
     flex-wrap: wrap;
 }
+
+.gap {gap: 10px 5px;}
+
+.coll-15 {width: calc(100% / 7 - 5px);}
 
 .coll-100 {width: 100%;}
 
@@ -64,7 +86,10 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 .my-25 {margin: 25px 0;}
 .my-35 {margin: 35px 0;}
 .my-50 {margin: 50px 0;}
+.mt-50 {margin-top: 50px;}
 .mt-120 {margin-top: 120px;}
+
+.mb-50 {margin-bottom: 50px;}
 
 .mx-10 {margin: 0 10px;}
 .mx-25 {margin: 0 25px;}
