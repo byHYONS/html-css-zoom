@@ -74,6 +74,19 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
     color: white;
     transform: scaleX(2);
 }
+
+
+.end-meeting {
+    height: 70px;
+    padding: 0 15px;
+    background-color: rgb(74, 74, 74);
+    border: none;
+    color: red;
+    font-size: 10px;
+    text-align: end;
+}
+
+
 /* -------------------------
          LAYOUT 
 ------------------------- */
@@ -94,6 +107,10 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 .coll-15 {width: calc(100% / 7 - 5px);}
 
+.coll-25 {width: 25%;}
+
+.coll-50 {width: 50%;}
+
 .coll-100 {width: 100%;}
 
 .coll-33 {width: calc(100% / 3);}
@@ -102,6 +119,14 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 /* -------------------------
            UTULITY 
 ------------------------- */
+.p-relative {position: relative;}
+.vertical-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .display-ib {display: inline-block;}
 
 .jc-center {justify-content: center;}
@@ -126,6 +151,8 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 .mx-25 {margin: 0 25px;}
 .mx-35 {margin: 0 35px;}
 
+.pt-15 {padding-top: 15px;}
+.pt-25 {padding-top: 25px;}
 .py-10 {padding: 10px 0;}
 .py-15 {padding: 15px 0;}
 .py-25 {padding: 25px 0;}
