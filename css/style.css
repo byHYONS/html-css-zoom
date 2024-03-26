@@ -5,6 +5,90 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+/* -------------------------
+           STYLE 
+------------------------- */
+
+.btn-sp {
+    display: inline;
+    margin-right: 3px;
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: #4A4A4A;
+    color: white;
+}
+
+.icon-sp {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    vertical-align: baseline;
+}
+
+
+/* -------------------------
+         LAYOUT 
+------------------------- */
+.container-full {width: 100vw;}
+
+.container {
+    width: 990px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coll-100 {width: 100%;}
+
+.coll-33 {width: calc(100% / 3);}
+
+
+/* -------------------------
+           UTULITY 
+------------------------- */
+.display-ib {display: inline-block;}
+
+.jc-center {justify-content: center;}
+.jc-between {justify-content: space-between;}
+.ai-center {align-items: center;}
+
+.my-10 {margin: 10px 0;}
+.my-25 {margin: 25px 0;}
+.my-35 {margin: 35px 0;}
+.my-50 {margin: 50px 0;}
+.mt-120 {margin-top: 120px;}
+
+.mx-10 {margin: 0 10px;}
+.mx-25 {margin: 0 25px;}
+.mx-35 {margin: 0 35px;}
+
+.py-10 {padding: 10px 0;}
+.py-15 {padding: 15px 0;}
+.py-25 {padding: 25px 0;}
+.py-35 {padding: 35px 0;}
+
+.px-10 {padding: 0 10px;}
+.px-25 {padding: 0 25px;}
+.px-35 {padding: 0 35px;}
+
+.ht-50 {height: 50px;}
+
+.ta-center {text-align: center;}
+.ta-right {text-align: right;}
+.ta-left {text-align: left;}
+
+
+/* -------------------------
+    BACKGROUND & COLOR 
+------------------------- */
+.bg-main {background-color: #000000;}
+.bg-speaker-view {background-color: #4A4A4A;}
 
