@@ -173,6 +173,7 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 /* -------------------------
     BACKGROUND & COLOR 
 ------------------------- */
+.green {color: greenyellow;}
 .bg-main {background-color: #000000;}
 .bg-footer {background-color: rgb(33, 33, 33);}
 .bg-speaker-view {background-color: #4A4A4A;}
